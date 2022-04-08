@@ -26,7 +26,7 @@ interface.
 Ví dụ: Để giao tiếp với CSDL ta có interface IDatabase, các module cấp thấp là XMLDatabase, SQLDatabase. Module cấp cao là CustomerBusiness sẽ chỉ sử dụnginterface
 IDatabase.
 
-Việc khởi tạo các module cấp thấp sẽ do DI container thực hiện
+Việc khởi tạo các module cấp thấp sẽ do DI container thực hiện.
 Ví dụ: Trong module CustomerBusiness, ta sẽ không khởi tạo IDatabase db = new XMLDatabase(), việc này sẽ do DI container thực hiện. Module CustomerBusiness sẽ không 
 biết gì về module XMLDatabase hay SQLDatabase. 
 
