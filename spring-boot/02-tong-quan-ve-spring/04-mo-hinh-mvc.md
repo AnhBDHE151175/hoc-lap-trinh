@@ -6,8 +6,8 @@ keywords:
     "Phân biệt giữa Get và Post"
   ]
 chapter:
-  name: "Tổng quan về ứng dụng web"
-  slug: "01-tong-quan-ve-ung-dung-web"
+  name: "Tổng quan về Spring"
+  slug: "04-mo-hinh-mvc"
 category:
   name: "SpringBoots"
   slug: "springboots"
